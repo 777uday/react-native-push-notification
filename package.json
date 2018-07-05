@@ -9,8 +9,8 @@
     "type": "range",
     "registry": true,
     "raw": "react-native-push-notification@^3.0.2",
-    "name": "react-native-push-notification",
-    "escapedName": "react-native-push-notification",
+    "name": "react-native-push-notification-custom-alert-message",
+    "escapedName": "react-native-push-notification-custom-alert-message",
     "rawSpec": "^3.0.2",
     "saveSpec": null,
     "fetchSpec": "^3.0.2"
@@ -21,10 +21,10 @@
   ],
   "_resolved": "https://registry.npmjs.org/react-native-push-notification/-/react-native-push-notification-3.0.2.tgz",
   "_shasum": "3fa7d654cfd915436597b0dd5ba8b0f898c4b0f5",
-  "_spec": "react-native-push-notification@^3.0.2",
+  "_spec": "react-native-push-notification-custom-alert-message@^1.0.0",
   "_where": "/Users/macbookpro/Desktop/ReactNative/Backup/Changing FCM package/tankM",
   "author": {
-    "name": "zo0r",
+    "name": "hungrySoul",
     "email": "http://zo0r.me"
   },
   "bugs": {
@@ -32,7 +32,7 @@
   },
   "bundleDependencies": false,
   "deprecated": false,
-  "description": "React Native Local and Remote Notifications",
+  "description": "React Native Local and Remote Notifications with custom messages",
   "homepage": "https://github.com/zo0r/react-native-push-notification#readme",
   "keywords": [
     "react-component",
@@ -46,13 +46,13 @@
   ],
   "license": "MIT",
   "main": "index",
-  "name": "react-native-push-notification",
+  "name": "react-native-push-notification-custom-alert-message",
   "peerDependencies": {
     "react-native": ">=0.33"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/zo0r/react-native-push-notification.git"
+    "url": "https://github.com/777uday/react-native-push-notification.git"
   },
   "rnpm": {
     "android": {
@@ -62,5 +62,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "3.0.2"
+  "version": "1.0.1"
 }

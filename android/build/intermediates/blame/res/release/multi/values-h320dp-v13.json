@@ -1,0 +1,74 @@
+[
+    {
+        "outputFile": "/Users/macbookpro/Desktop/ReactNative/CSM - Creamline/csm_reactnative/node_modules/react-native-push-notification-custom-alert-message/android/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-h320dp-v13/values-h320dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/macbookpro/Desktop/ReactNative/CSM - Creamline/csm_reactnative/node_modules/react-native-push-notification-custom-alert-message/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-h320dp/values-h320dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 231,
+                        "endColumn": 57,
+                        "endOffset": 284
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/uday-ib/Desktop/Epicure Stickler/ReactNative/CSM - Zyter/dev/node_modules/react-native-push-notification-custom-alert-message/android/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-h320dp-v13/values-h320dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/uday-ib/Desktop/Epicure Stickler/ReactNative/CSM - Zyter/dev/node_modules/react-native-push-notification-custom-alert-message/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-h320dp/values-h320dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 231,
+                        "endColumn": 57,
+                        "endOffset": 284
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/macbookpro/Desktop/ReactNative/CSM - Zyter/dev/node_modules/react-native-push-notification-custom-alert-message/android/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-h320dp-v13/values-h320dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/macbookpro/Desktop/ReactNative/CSM - Zyter/dev/node_modules/react-native-push-notification-custom-alert-message/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-h320dp/values-h320dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 231,
+                        "endColumn": 57,
+                        "endOffset": 284
+                    }
+                }
+            }
+        ]
+    }
+]

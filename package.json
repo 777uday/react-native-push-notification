@@ -1,28 +1,33 @@
 {
-  "_from": "react-native-push-notification@^3.0.2",
-  "_id": "react-native-push-notification@3.0.2",
+  "_args": [
+    [
+      "react-native-push-notification-custom-alert-message@1.0.2",
+      "/Users/macbookpro/Desktop/ReactNative/CSM - Creamline/csm_reactnative"
+    ]
+  ],
+  "_from": "react-native-push-notification-custom-alert-message@1.0.2",
+  "_id": "react-native-push-notification-custom-alert-message@1.0.2",
   "_inBundle": false,
-  "_integrity": "sha512-enBzytbmBi4keOSPH6eofcXC2/z0GivJAbYpJmT6SdM964WbRAZV3mW6ouX/WhcqcI9dD8IEAu1edZuPzZkxCw==",
-  "_location": "/react-native-push-notification",
+  "_integrity": "sha512-ca3tofaWNHkDutUq9NTmc7U0zTqoTLd4SIFcM8t7by1zV2Rpc7CFkpJpAqZwWVKprXxLKZ9ewL4czXSbkp68HA==",
+  "_location": "/react-native-push-notification-custom-alert-message",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "react-native-push-notification@^3.0.2",
+    "raw": "react-native-push-notification-custom-alert-message@1.0.2",
     "name": "react-native-push-notification-custom-alert-message",
     "escapedName": "react-native-push-notification-custom-alert-message",
-    "rawSpec": "^3.0.2",
+    "rawSpec": "1.0.2",
     "saveSpec": null,
-    "fetchSpec": "^3.0.2"
+    "fetchSpec": "1.0.2"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/react-native-push-notification/-/react-native-push-notification-3.0.2.tgz",
+  "_resolved": "https://registry.npmjs.org/react-native-push-notification-custom-alert-message/-/react-native-push-notification-custom-alert-message-1.0.2.tgz",
   "_shasum": "3fa7d654cfd915436597b0dd5ba8b0f898c4b0f5",
-  "_spec": "react-native-push-notification-custom-alert-message@^1.0.0",
-  "_where": "/Users/macbookpro/Desktop/ReactNative/Backup/Changing FCM package/tankM",
+  "_spec": "1.0.2",
+  "_where": "/Users/macbookpro/Desktop/ReactNative/CSM - Creamline/csm_reactnative",
   "author": {
     "name": "hungrySoul",
     "email": "http://zo0r.me"
@@ -52,7 +57,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/777uday/react-native-push-notification.git"
+    "url": "git+https://github.com/777uday/react-native-push-notification.git"
   },
   "rnpm": {
     "android": {
@@ -62,5 +67,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.2"
+  "version": "1.0.3"
 }

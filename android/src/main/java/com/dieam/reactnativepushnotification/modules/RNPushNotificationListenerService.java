@@ -63,30 +63,81 @@ public class RNPushNotificationListenerService extends GcmListenerService {
                 if (context != null) {
                     String message = bundle.getString("message");
                     if (message.equals("Asset assigned to zone.")){
-                        String assetName = bundle.getString("assetName");
+                        String assetName = bundle.getString("warehouseName");
                         String zoneName = bundle.getString("zoneName");
-                        String messageForNotification = "Tank" + " - " + assetName + " assigned to " + zoneName;
+                        String messageForNotification = "Warehouse" + " - " + assetName + " assigned to " + zoneName;
                         bundle.putString("message", messageForNotification);
                         bundle.putString("initMessage", message);
                         handleRemotePushNotification((ReactApplicationContext) context, bundle);
                     } else if (message.equals("Asset removed from zone.")){
-                        String assetName = bundle.getString("assetName");
+                        String assetName = bundle.getString("warehouseName");
                         String zoneName = bundle.getString("zoneName");
-                        String messageForNotification = "Tank" + " - " + assetName + " unassigned from " + zoneName;
+                        String messageForNotification = "Warehouse" + " - " + assetName + " unassigned from " + zoneName;
                         bundle.putString("message", messageForNotification);
                         bundle.putString("initMessage", message);
                         handleRemotePushNotification((ReactApplicationContext) context, bundle);
                     } else if (message.equals("Asset deleted.")){
-                        String assetName = bundle.getString("assetName");
-                        String messageForNotification = "Tank"+ " - " + assetName + " - " + message;
+                        String assetName = bundle.getString("warehouseName");
+                        String messageForNotification = "Warehouse"+ " - " + assetName + " - deleted";
+                        bundle.putString("message", messageForNotification);
+                        bundle.putString("initMessage", message);
+                        handleRemotePushNotification((ReactApplicationContext) context, bundle);
+                    } else if (message.equals("Room deleted.")){
+                        String assetName = bundle.getString("warehouseName");
+                        String roomName = bundle.getString("roomName");
+                        String messageForNotification = assetName + " - " + roomName + " room deleted";
                         bundle.putString("message", messageForNotification);
                         bundle.putString("initMessage", message);
                         handleRemotePushNotification((ReactApplicationContext) context, bundle);
                     } else if (message.equals("New alert generated.")){
-                        String assetName = bundle.getString("assetName");
-                        String sensorName = bundle.getString("sensorName");
+                        // String title = "Creamline";
+                        String sensorType = bundle.getString("sensorType");
                         String alert = bundle.getString("alert");
-                        String messageForNotification = assetName + " - " + sensorName + " - " + alert;
+                        // if(sensorType == "Temperature"){
+                        //     if(alert == "Too Hot"){
+                        //         title = "Critical Alert";
+                        //     } else if(alert == "Hot") {
+                        //         title = "Warning Alert";
+                        //     }
+                        // } else if(sensorType == "Battery"){
+                        //     if(alert == "Critical"){
+                        //         title = "Critical Alert";
+                        //     } else if(alert == "Low") {
+                        //         title = "Warning Alert";
+                        //     }
+                        // }
+                        String assetName = bundle.getString("warehouseName");
+                        String sensorReading = bundle.getString("sensorReading");
+                        String units = bundle.getString("units");
+                        String sensorName = bundle.getString("sensorName");
+                        String roomName = bundle.getString("roomName");
+                        String messageForNotification = assetName + " - " + sensorName + " - " + sensorType + " is " + sensorReading + units + " - " + alert;
+                        bundle.putString("message", messageForNotification);
+                        bundle.putString("initMessage", message);
+                        handleRemotePushNotification((ReactApplicationContext) context, bundle);
+                    } else if (message.equals("Reported faulty reading.")){
+                        String sensorType = bundle.getString("sensorType");
+                        String alert = bundle.getString("alert");
+                        String assetName = bundle.getString("warehouseName");
+                        String sensorReading = bundle.getString("sensorReading");
+                        String units = bundle.getString("units");
+                        String sensorName = bundle.getString("sensorName");
+                        String roomName = bundle.getString("roomName");
+                        String messageForNotification = assetName + " - " + sensorName + " is not connected.";
+                        bundle.putString("message", messageForNotification);
+                        bundle.putString("initMessage", message);
+                        handleRemotePushNotification((ReactApplicationContext) context, bundle);
+                    } else if (message.equals("Equipment not traced.")){
+                        String assetName = bundle.getString("warehouseName");
+                        String sensorName = bundle.getString("sensorName");
+                        String messageForNotification = assetName + " - " + sensorName + " is not traced.";
+                        bundle.putString("message", messageForNotification);
+                        bundle.putString("initMessage", message);
+                        handleRemotePushNotification((ReactApplicationContext) context, bundle);
+                    } else if (message.equals("Equipment found in unAuthorized location.")){
+                        String assetName = bundle.getString("warehouseName");
+                        String sensorName = bundle.getString("sensorName");
+                        String messageForNotification = assetName + " - " + sensorName + " is moved to unauthorized location.";
                         bundle.putString("message", messageForNotification);
                         bundle.putString("initMessage", message);
                         handleRemotePushNotification((ReactApplicationContext) context, bundle);
@@ -97,30 +148,81 @@ public class RNPushNotificationListenerService extends GcmListenerService {
                         public void onReactContextInitialized(ReactContext context) {
                             String message = bundle.getString("message");
                             if (message.equals("Asset assigned to zone.")){
-                                String assetName = bundle.getString("assetName");
+                                String assetName = bundle.getString("warehouseName");
                                 String zoneName = bundle.getString("zoneName");
-                                String messageForNotification = "Tank" + " - " + assetName + " assigned to " + zoneName;
+                                String messageForNotification = "Warehouse" + " - " + assetName + " assigned to " + zoneName;
                                 bundle.putString("message", messageForNotification);
                                 bundle.putString("initMessage", message);
                                 handleRemotePushNotification((ReactApplicationContext) context, bundle);
                             } else if (message.equals("Asset removed from zone.")){
-                                String assetName = bundle.getString("assetName");
+                                String assetName = bundle.getString("warehouseName");
                                 String zoneName = bundle.getString("zoneName");
-                                String messageForNotification = "Tank" + " - " + assetName + " unassigned from " + zoneName;
+                                String messageForNotification = "Warehouse" + " - " + assetName + " unassigned from " + zoneName;
                                 bundle.putString("message", messageForNotification);
                                 bundle.putString("initMessage", message);
                                 handleRemotePushNotification((ReactApplicationContext) context, bundle);
                             } else if (message.equals("Asset deleted.")){
-                                String assetName = bundle.getString("assetName");
-                                String messageForNotification = "Tank"+ " - " + assetName + " - " + message;
+                                String assetName = bundle.getString("warehouseName");
+                                String messageForNotification = "Warehouse"+ " - " + assetName + " - deleted";
+                                bundle.putString("message", messageForNotification);
+                                bundle.putString("initMessage", message);
+                                handleRemotePushNotification((ReactApplicationContext) context, bundle);
+                            } else if (message.equals("Room deleted.")){
+                                String assetName = bundle.getString("warehouseName");
+                                String roomName = bundle.getString("roomName");
+                                String messageForNotification = assetName + " - " + roomName + " room deleted";
                                 bundle.putString("message", messageForNotification);
                                 bundle.putString("initMessage", message);
                                 handleRemotePushNotification((ReactApplicationContext) context, bundle);
                             } else if (message.equals("New alert generated.")){
-                                String assetName = bundle.getString("assetName");
-                                String sensorName = bundle.getString("sensorName");
+                                // String title = "Creamline";
+                                String sensorType = bundle.getString("sensorType");
                                 String alert = bundle.getString("alert");
-                                String messageForNotification = assetName + " - " + sensorName + " - " + alert;
+                                // if(sensorType == "Temperature"){
+                                //     if(alert == "Too Hot"){
+                                //         title = "Critical Alert";
+                                //     } else if(alert == "Hot") {
+                                //         title = "Warning Alert";
+                                //     }
+                                // } else if(sensorType == "Battery"){
+                                //     if(alert == "Critical"){
+                                //         title = "Critical Alert";
+                                //     } else if(alert == "Low") {
+                                //         title = "Warning Alert";
+                                //     }
+                                // }
+                                String assetName = bundle.getString("warehouseName");
+                                String sensorReading = bundle.getString("sensorReading");
+                                String units = bundle.getString("units");
+                                String sensorName = bundle.getString("sensorName");
+                                String roomName = bundle.getString("roomName");
+                                String messageForNotification = assetName + " - " + sensorName + " - " + sensorType + " is " + sensorReading + units + " - " + alert;
+                                bundle.putString("message", messageForNotification);
+                                bundle.putString("initMessage", message);
+                                handleRemotePushNotification((ReactApplicationContext) context, bundle);
+                            } else if (message.equals("Reported faulty reading.")){
+                                String sensorType = bundle.getString("sensorType");
+                                String alert = bundle.getString("alert");
+                                String assetName = bundle.getString("warehouseName");
+                                String sensorReading = bundle.getString("sensorReading");
+                                String units = bundle.getString("units");
+                                String sensorName = bundle.getString("sensorName");
+                                String roomName = bundle.getString("roomName");
+                                String messageForNotification = assetName + " - " + sensorName + " is not connected.";
+                                bundle.putString("message", messageForNotification);
+                                bundle.putString("initMessage", message);
+                                handleRemotePushNotification((ReactApplicationContext) context, bundle);
+                            } else if (message.equals("Equipment not traced.")){
+                                String assetName = bundle.getString("warehouseName");
+                                String sensorName = bundle.getString("sensorName");
+                                String messageForNotification = assetName + " - " + sensorName + " is not traced.";
+                                bundle.putString("message", messageForNotification);
+                                bundle.putString("initMessage", message);
+                                handleRemotePushNotification((ReactApplicationContext) context, bundle);
+                            } else if (message.equals("Equipment found in unAuthorized location.")){
+                                String assetName = bundle.getString("warehouseName");
+                                String sensorName = bundle.getString("sensorName");
+                                String messageForNotification = assetName + " - " + sensorName + " is moved to unauthorized location.";
                                 bundle.putString("message", messageForNotification);
                                 bundle.putString("initMessage", message);
                                 handleRemotePushNotification((ReactApplicationContext) context, bundle);

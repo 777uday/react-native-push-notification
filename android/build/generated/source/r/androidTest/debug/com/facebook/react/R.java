@@ -658,26 +658,28 @@ public final class R {
 		public static final int abc_toolbar_collapse_description = 0x7f060012;
 		public static final int catalyst_copy_button = 0x7f060025;
 		public static final int catalyst_debugjs = 0x7f060026;
-		public static final int catalyst_debugjs_off = 0x7f060027;
-		public static final int catalyst_dismiss_button = 0x7f060028;
-		public static final int catalyst_element_inspector = 0x7f060029;
-		public static final int catalyst_heap_capture = 0x7f06002a;
-		public static final int catalyst_hot_module_replacement = 0x7f06002b;
-		public static final int catalyst_hot_module_replacement_off = 0x7f06002c;
-		public static final int catalyst_jsload_error = 0x7f06002d;
-		public static final int catalyst_live_reload = 0x7f06002e;
-		public static final int catalyst_live_reload_off = 0x7f06002f;
-		public static final int catalyst_loading_from_url = 0x7f060030;
-		public static final int catalyst_perf_monitor = 0x7f060031;
-		public static final int catalyst_perf_monitor_off = 0x7f060032;
-		public static final int catalyst_poke_sampling_profiler = 0x7f060033;
-		public static final int catalyst_reload_button = 0x7f060034;
-		public static final int catalyst_reloadjs = 0x7f060035;
-		public static final int catalyst_remotedbg_error = 0x7f060036;
-		public static final int catalyst_remotedbg_message = 0x7f060037;
-		public static final int catalyst_report_button = 0x7f060038;
-		public static final int catalyst_settings = 0x7f060039;
-		public static final int catalyst_settings_title = 0x7f06003a;
+		public static final int catalyst_debugjs_nuclide = 0x7f060027;
+		public static final int catalyst_debugjs_nuclide_failure = 0x7f060028;
+		public static final int catalyst_debugjs_off = 0x7f060029;
+		public static final int catalyst_dismiss_button = 0x7f06002a;
+		public static final int catalyst_element_inspector = 0x7f06002b;
+		public static final int catalyst_heap_capture = 0x7f06002c;
+		public static final int catalyst_hot_module_replacement = 0x7f06002d;
+		public static final int catalyst_hot_module_replacement_off = 0x7f06002e;
+		public static final int catalyst_jsload_error = 0x7f06002f;
+		public static final int catalyst_live_reload = 0x7f060030;
+		public static final int catalyst_live_reload_off = 0x7f060031;
+		public static final int catalyst_loading_from_url = 0x7f060032;
+		public static final int catalyst_perf_monitor = 0x7f060033;
+		public static final int catalyst_perf_monitor_off = 0x7f060034;
+		public static final int catalyst_poke_sampling_profiler = 0x7f060035;
+		public static final int catalyst_reload_button = 0x7f060036;
+		public static final int catalyst_reloadjs = 0x7f060037;
+		public static final int catalyst_remotedbg_error = 0x7f060038;
+		public static final int catalyst_remotedbg_message = 0x7f060039;
+		public static final int catalyst_report_button = 0x7f06003a;
+		public static final int catalyst_settings = 0x7f06003b;
+		public static final int catalyst_settings_title = 0x7f06003c;
 		public static final int status_bar_notification_info_overflow = 0x7f060024;
 	}
 	public static final class style {
@@ -1001,6 +1003,7 @@ public final class R {
 		public static final int Widget_AppCompat_TextView_SpinnerItem = 0x7f090143;
 		public static final int Widget_AppCompat_Toolbar = 0x7f090144;
 		public static final int Widget_AppCompat_Toolbar_Button_Navigation = 0x7f090145;
+		public static final int redboxButton = 0x7f090146;
 	}
 	public static final class styleable {
 		public static final int[] ActionBar = { 0x7f010001, 0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015, 0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019, 0x7f01001a, 0x7f01001b, 0x7f01009d };

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/macbookpro/Desktop/ReactNative/CSM - Zyter/dev/node_modules/react-native-push-notification-custom-alert-message/android/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/macbookpro/Desktop/ReactNative/CSM - Zyter/dev/node_modules/react-native-push-notification-custom-alert-message/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/Desktop/ReactNative/CSM - Creamline/csm_reactnative/node_modules/react-native-push-notification-custom-alert-message/android/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/macbookpro/Desktop/ReactNative/CSM - Creamline/csm_reactnative/node_modules/react-native-push-notification-custom-alert-message/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/uday-ib/Desktop/Epicure Stickler/ReactNative/CSM - Zyter/dev/node_modules/react-native-push-notification-custom-alert-message/android/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/uday-ib/Desktop/Epicure Stickler/ReactNative/CSM - Zyter/dev/node_modules/react-native-push-notification-custom-alert-message/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/Desktop/ReactNative/CSM - Creamline/csm_reactnative/node_modules/react-native-push-notification-custom-alert-message/android/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/macbookpro/Desktop/ReactNative/CSM - Creamline/csm_reactnative/node_modules/react-native-push-notification-custom-alert-message/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/uday-ib/Desktop/Epicure Stickler/ReactNative/CSM - Zyter/dev/node_modules/react-native-push-notification-custom-alert-message/android/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/uday-ib/Desktop/Epicure Stickler/ReactNative/CSM - Zyter/dev/node_modules/react-native-push-notification-custom-alert-message/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/Desktop/ReactNative/CSM - Zyter/dev/node_modules/react-native-push-notification-custom-alert-message/android/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/macbookpro/Desktop/ReactNative/CSM - Zyter/dev/node_modules/react-native-push-notification-custom-alert-message/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]
